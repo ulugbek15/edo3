@@ -10,7 +10,7 @@ import { BrowserRouter as Router} from "react-router-dom";
 import { setContext } from "@apollo/client/link/context";
 
 const uploadLink = createUploadLink({
-  uri: 'http://data-edo.herokuapp.com/graphql',
+  uri: 'https://data-edo.herokuapp.com/graphql',
  headers: {
     "keep-alive": "true"
   }
