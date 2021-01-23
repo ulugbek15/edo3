@@ -1,0 +1,37 @@
+.sidebar-wrapper{
+	border: 1px solid red;
+	margin-top: 25px;
+}
+.document-wrapper{
+	width: 1200px;
+	margin: 0 auto;
+	border: 1px solid #000;
+}
+.branch-info{
+	display: flex;
+	flex-direction: column;
+}
+.user-info{
+	display: flex;
+	justify-content: space-around;
+}
+h1{
+	text-align: center;
+}
+.branch-info{
+	display: flex;
+	flex-direction: column;
+}
+.username-wrapper{
+	display: flex;
+	flex-direction: column;
+}
+.documents-wrapper{
+	display: flex;
+	align-items: center;
+	width: 1200px;
+	margin: 0 auto;
+}
+li{
+	margin-right: 25px;	
+}
